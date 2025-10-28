@@ -22,7 +22,7 @@ export { JwtAuthGuard } from './guards/jwt-auth.guard';
 export { CurrentUser } from './decorators/current-user.decorator';
 
 // Interfaces
-export { AuthResponse, JwtPayload } from './interfaces/auth.interface';
+export type { AuthResponse, JwtPayload } from './interfaces/auth.interface';
 
 // Strategies
 export { JwtStrategy } from './strategies/jwt.strategy';
